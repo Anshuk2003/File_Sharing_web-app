@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Main Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+</head>
+<style>
+  body {
+    background-image: url("intro-1663709473.jpg");
+    /* Prevent background image from repeating */
+    background-repeat: no-repeat;
+    /* Adjust background image size to cover the entire viewport */
+    background-size: cover;
+    /* background-size: auto;  */
+  }
+
+  .container {
+    text-align: center;
+    margin-top: 5%;
+    width: 300px;
+    height: 500px;
+    padding-top: 30px;
+  }
+  .c1 {
+      padding-top: 10px;
+      padding-left:50px ;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+</style>
+
+<body>
+  <div class="c1">
+    <h1>File Transfer</h1>
+    <h2>Share,
+      <br>Whatever
+      <br>Whenever
+      <br>Wherever</h2>
+  </div>
+  <div id="main_div" class="container">
+    <!-- Button to trigger navigation to another page -->
+    <button type="button" class="btn btn-dark" id="entermain" onclick="location.href = 'index21.html';">
+      CLICK TO GET STARTED
+    </button>
+  </div>
+
+  <script src="">
+    // Redirect to index.html when the button is clicked
+    $("entermain").on("click", function () {
+      window.location = "index.html";
+    });
+  </script>
+</body>
+
+</html>
